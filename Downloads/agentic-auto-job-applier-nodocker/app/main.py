@@ -5,6 +5,8 @@ from job_scraper.indeed_scraper import fetch_indeed_jobs
 from auto_apply import auto_fill_job_form
 from email_sender import send_user_email
 from app.resume_parser import parse_resume
+from app.email_sender import send_email
+from app.match_engine import match_score
 
 st.title("🤖 Agentic Auto Job Applier")
 
