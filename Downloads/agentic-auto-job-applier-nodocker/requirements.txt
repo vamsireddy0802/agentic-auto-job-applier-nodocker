@@ -1,8 +1,0 @@
-streamlit
-selenium
-beautifulsoup4
-requests
-sentence-transformers
-python-dotenv
-pdfminer.six
-docx2txt
